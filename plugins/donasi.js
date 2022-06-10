@@ -4,10 +4,10 @@ let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fet
 ╭═══════════════
 ║╭─── [ DONASI ] ───
 ║│➸ _*Dana*_✅ : 
-║│- 6282361160044
+║│- 081233738677
 ║│
-║│➸ _*Pulsa*_✅: 
-║│- 6285212023766
+║│➸ _*Gopay*_✅: 
+║│- 081233738677
 ║│
 ║│➸ _*OWNER*_
 ║│- wa.me/6287892711054
