@@ -3,7 +3,7 @@ let handler = async (m, { conn, args }) => {
    response = args.join(' ')
   if (!args[0]) throw 'Masukkan Parameter'
   m.reply('*[❗] WAIT, Sedang Proses...*')
-  let res = await fetch(`https://api.lolhuman.xyz/api/textprome/summersand?q=${response}&apikey=Fiktod`)
+  let res = await fetch(`https://api.lolhuman.xyz/api/textprome/summersand?=${response}&apikey=Fiktod`)
   let json = await res.json()
   conn.sendFile(m.chat, json.result.url, 'summer.jpg', `Nih kak`, m, false)
 }
