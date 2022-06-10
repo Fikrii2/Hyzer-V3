@@ -38,7 +38,7 @@ handler.all = async function (m, { isBlocked }) {
 ╠➥ TOPUP/PIN
 ║- 60149431385 (Digi)
 ║- 60189830350 (Umobile)
-╠═〘 Hyzer 〙 ═`.trim(), '©shirobotz', 'Digi', '#viadigi', 'Umobile', '#viaumobile', m)
+╠═〘 FikriiSky 〙 ═`.trim(), '© Miku', 'Digi', '#viadigi', 'Umobile', '#viaumobile', m)
 }
 
     // salam
