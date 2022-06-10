@@ -3,7 +3,7 @@ let handler = async (m, { conn, args }) => {
    response = args.join(' ')
   if (!args[0]) throw 'Masukkan Parameter'
   m.reply('*[❗] WAIT, Sedang Proses...*')
-  let res = await fetch(`https://api.lolhuman.xyz/api/photooxy1/wolfmetal?=${response}&apikey=Fiktod`)
+  let res = await fetch(`https://api.lolhuman.xyz/api/photooxy1/wolfmetal?q=${response}&apikey=Fiktod`)
   let json = await res.json()
   conn.sendFile(m.chat, json.result.url, 'wolf-metal.jpg', `Nih kak`, m, false)
 }
