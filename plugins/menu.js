@@ -278,7 +278,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Menu Berita",
                                     "rowId": ".? News"
                                 }, { 
-                                    "title": "😣 〉ɞ 『 Vn Imuet 』",
+                                    "title": "😣『 Vn Imuet 』",
                                     "description": "Mendengarkan Vn Yang Sangat Imuet",
                                     "rowId": ".? vn"                                                      
                                 }, {
