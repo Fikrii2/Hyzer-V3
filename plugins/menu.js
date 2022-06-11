@@ -53,6 +53,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'xp': 'Exp & Limit',
     'nsfw': `NSFW ${global.opts['nsfw'] ? '' : '(Dinonaktifkan)'}`,
     'sticker': 'Stiker',
+    'vn': 'Vn Imuet',
     'edukasi': 'Edukasi',
     'news': 'News',
     'kerang': 'Kerang Ajaib',
@@ -89,6 +90,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   }
   if (teks == 'edukasi') tags = {
     'edukasi': 'Edukasi'
+  }
+  if (teks == 'vn') tags = {
+    'vn': 'Vn Imuet'
   }
   if (teks == 'nsfw') tags = {
     'hentai': 'Hentai',
@@ -274,6 +278,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Menu Berita",
                                     "rowId": ".? News"
                                 }, { 
+                                    "title": "😣 〉ɞ 『 Vn Imuet 』",
+                                    "description": "Mendengarkan Vn Yang Sangat Imuet",
+                                    "rowId": ".? vn"                                                      
+                                }, {
                                     "title": "|🎮| Game",
                                     "description": "Menu Game",
                                     "rowId": ".? game"
