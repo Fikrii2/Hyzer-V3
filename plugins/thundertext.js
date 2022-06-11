@@ -3,7 +3,7 @@ let handler = async (m, { conn, args }) => {
    response = args.join(' ')
   if (!args) throw 'Masukkan Parameter'
   m.reply('*Proses...*')
-  let res = `https://api.zeks.xyz/api/thundertext?text=${response}&apikey=apivinz`
+  let res = `https://api.lolhuman.xyz/api/textprome/thunder?text=${response}&apikey=Fiktod`
   conn.sendFile(m.chat, res, 'nama.jpg', `DUAARRRR!`, m, false)
 }
 handler.help = ['thundertext'].map(v => v + ' <teks>')
