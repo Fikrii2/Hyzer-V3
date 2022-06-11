@@ -20,11 +20,10 @@ let handler = async(m, { conn }) => {
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
         {title: '1 Minggu', description: "Rm5.00\nSewa bot 1 Minggu.", rowId:".masuk"},
-        {title: '2 Minggu', description: "Rm10.00\nSewa bot 2 Minggu.", rowId:".masuk"},
-        {title: '3 Minggu', description: "Rm15.00\nSewa bot 3 Minggu.", rowId:".masuk"},
-        {title: '1 Bulan', description: "Rm20.00\nSewa bot 1 Bulan.", rowId:".masuk"},
+        {title: '1 Bulan', description: "Rm10.00\nSewa bot 2 Minggu.", rowId:".masuk"},
+        {title: 'Permanen', description: "Rm20.00\nSewa bot 1 Bulan.", rowId:".masuk"},
         {title: 'Owner', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
-        {title: 'Rules', description: "Rules Bot *Miku*.", rowId:".snk"},
+        {title: 'Rules', description: "Rules Bot *Miku*.", rowId:".rules"},
        ] }],
         listType: 1
        }
